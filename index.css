@@ -1,16 +1,29 @@
+/* Globe */
 * {
     font-family: Roboto, Arial, sans-serif;
 }
 
+/* App bar */
 h1 {
     color: #00838f;
 }
 
+/* Channel list */
 h2 {
     color: #00838f;
     font-size: smaller;
 }
 
+.channel-name {
+    font-weight: bold;
+}
+
+.time {
+    font-size: small;
+    margin-left: 3%;
+}
+
+/* Messages */
 p {
     background-color: #eeeeee;
 }

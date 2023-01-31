@@ -7,29 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chatter|App</title>
     <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
-    <section>
-        <h1>chatter | app</h1>
+    <section class="headbar">
+        <h1><img src="./pics/moocus.png" alt="moocus.png" height="56">chatter | app</h1>
 
         <h2>Favorites</h2>
-        <strong>MeetUp</strong>
-        <small>11:51</small>
-        <br>
-        <strong>Oktoberfest</strong>
-        <small>10:51</small>
-
+        <ul class="channel-list">
+            <span class="channel-name">MeetUp</span><span class="time">11:51</span>
+            <br>
+            <span class="channel-name">Oktoberfest</span><span class="time">10:51</span>
+        </ul>
+        
         <h2>Regular</h2>
-        <strong>WeatherChannel</strong>
-        <small>Yesterday</small>
-        <br>
-        <strong>SevenContinents</strong>
-        <small>23 May 2018</small>
+        <ul class="channel-list">
+            <span class="channel-name">WeatherChannel</span><span class="time">Yesterday</span>
+            <br>
+            <span class="channel-name">SevenContinents</span><span class="time">23 May 2018</span>
+        </ul>
 
     </section>
 
-    <section>
+    <section id="channel-view">
         <h1>MeetUp</h1>
         <button>Favorite</button>
 
