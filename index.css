@@ -7,11 +7,13 @@
     top: 0; 
     left: 10px;
     width: 399px;
+    height: 100vh;
 }
 #message-area {
     position: fixed;
     top: 0; left: 410px;
     width: calc(100%-410px);
+    height: 100vh;
 }
 
 /* App bar */
