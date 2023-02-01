@@ -11,53 +11,76 @@
 </head>
 
 <body>
-    <section class="headbar">
-        <h1><img src="./pics/moocus.png" alt="moocus.png" height="56">chatter | app</h1>
+    <section id="head-area">
+        <h1 class="headbar"><img id="logo" src="./pics/moocus.png" alt="moocus.png" height="56">chatter | app</h1>
 
         <h2>Favorites</h2>
         <ul class="channel-list">
-            <span class="channel-name">MeetUp</span><span class="time">11:51</span>
-            <br>
-            <span class="channel-name">Oktoberfest</span><span class="time">10:51</span>
+            <li class="selected"><span class="channel-name">MeetUp</span><span class="time">11:51</span></li>
+            <li><span class="channel-name">Oktoberfest</span><span class="time">10:51</span></li>
         </ul>
-        
+
         <h2>Regular</h2>
         <ul class="channel-list">
-            <span class="channel-name">WeatherChannel</span><span class="time">Yesterday</span>
-            <br>
-            <span class="channel-name">SevenContinents</span><span class="time">23 May 2018</span>
+            <li><span class="channel-name">WeatherChannel</span><span class="time">Yesterday</span></li>
+            <li><span class="channel-name">SevenContinents</span><span class="time">23 May 2018</span></li>
         </ul>
 
     </section>
 
-    <section id="channel-view">
-        <h1>MeetUp</h1>
-        <button>Favorite</button>
+    <section id="message-area">
+        <h1 class="headbar" id="message-bar">MeetUp<button id="favorite-button">Favorite</button></h1>
 
-        <h2>Jessie Koch</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eveniet porro officia,
-            nesciunt aut delectus incidunt possimus illum placeat repudiandae reiciendis corporis ab.
-            ste vel ducimus blanditiis, tempora adipisci doloribus.
-        </p>
-        <small>11:45</small>
-
-        <h2>Jessie Koch</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eveniet porro officia,
-            nesciunt aut delectus incidunt possimus illum placeat repudiandae reiciendis corporis ab.
-            Iste vel ducimus blanditiis, tempora adipisci doloribus.</p>
-        <small>11:49</small>
-
-        <h2>Jessie Koch</h2>
-        <p>Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolor
-            voluptas debitis deleniti iure consequatur saepe! Sed repellendus accusantium neque nemo
-            doloremque ipsa deleniti. Cumque rem repudiandae accusamus dolores adipisci!.</p>
-        <small>11:49</small>
-
-        <br>
-
-        <input>
-        <button>Send</button>
+        <div>
+            <div>
+                <div class="message">
+                    <h2>Jessie Koch</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eveniet porro officia,
+                        nesciunt aut delectus incidunt possimus illum placeat repudiandae reiciendis corporis ab.
+                        ste vel ducimus blanditiis, tempora adipisci doloribus.
+                    </p>
+                </div>
+                <small>11:45</small>
+            </div>
+            <div>
+                <div class="message">
+                    <h2>Jessie Koch</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eveniet porro officia,
+                        nesciunt aut delectus incidunt possimus illum placeat repudiandae reiciendis corporis ab.
+                        Iste vel ducimus blanditiis, tempora adipisci doloribus.
+                    </p>
+                </div>
+                <small>11:49</small>
+            </div>
+            <div>
+                <div class="message-out">
+                    <h2>Jessie Koch</h2>
+                    <p>Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolor
+                        voluptas debitis deleniti iure consequatur saepe! Sed repellendus accusantium neque nemo
+                        doloremque ipsa deleniti. Cumque rem repudiandae accusamus dolores adipisci!.
+                    </p>
+                </div>
+                <small>11:49</small>
+            </div>
+            <div>
+                <div class="message">
+                    <h2>Jessie Koch</h2>
+                    <p>Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolor
+                        voluptas debitis deleniti iure consequatur saepe! Sed repellendus accusantium neque nemo
+                        doloremque ipsa deleniti. Cumque rem repudiandae accusamus dolores adipisci!.
+                    </p>
+                </div>
+                <small>11:49</small>
+            </div>
+            <br>
+        </div>
+        <div>
+            <label for="input-message">Please input your message(1 to 1000 characters):</label>
+            <br>
+            <input type="text" id="input-message" name="input" required minlength="1" maxlength="1000" size="75%">
+            <button>Send</button>
+        </div>
     </section>
 </body>
 
