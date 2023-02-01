@@ -2,13 +2,13 @@
 * {
     font-family: Roboto, Arial, sans-serif;
 }
-#head-area{
+#head-area {
     position: fixed;
     top: 0; 
     left: 10px;
     width: 399px;
 }
-#message-area{
+#message-area {
     position: fixed;
     top: 0; left: 410px;
     width: calc(100%-410px);
@@ -18,19 +18,19 @@
 h1 {
     color: #00838f;
 }
-.headbar{
+.headbar {
     background-color: #eeeeee;
     height: 56px;
     padding-bottom: 5px;
 }
-#logo{
+#logo {
     background-color: #00838f;
 }
-#message-bar{
+#message-bar {
     height: 46px;
     padding-top: 10px;
 }
-#favorite-button{
+#favorite-button {
     margin-left: 10px;
 }
 
@@ -39,7 +39,7 @@ h2 {
     color: #00838f;
     font-size: smaller;
 }
-.channel-list{
+.channel-list {
     list-style-type: none;
 }
 .channel-name {
@@ -50,12 +50,12 @@ h2 {
     font-size: small;
     margin-left: 3%;
 }
-li{
+li {
     box-sizing: border-box;
     padding: 22px;
     height: 66px;
 }
-.selected{
+.selected {
     background-color: #eeeeee;
     border-right: #00838f 2px solid;
 }
@@ -65,7 +65,7 @@ li{
     background-color: #eeeeee;
     width: 75%;
 }
-.message-out{
+.message-out {
     background-color: #00838f;
     width: 75%;
 }
